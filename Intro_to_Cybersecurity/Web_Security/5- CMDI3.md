@@ -1,6 +1,3 @@
-Here is the `.md` writeup for this level:
-
-````markdown
 # Command Injection Level: Bypassing Quote Context
 
 ## Challenge Overview
@@ -83,8 +80,3 @@ This command successfully executes the `cat /flag` command after escaping the si
 * **Single quotes** are used to escape special characters in shell commands, but they can be bypassed by breaking out of the quotes.
 * **Command injection** vulnerabilities often arise when user input is passed directly into shell commands without proper sanitization.
 * **Payload crafting** is crucial in bypassing input validation mechanisms like quotes.
-
-```
-
-Let me know if you need further adjustments!
-```

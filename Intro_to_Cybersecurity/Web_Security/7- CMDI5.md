@@ -1,8 +1,3 @@
-Here’s a writeup for this command injection level in `.md` format:
-
----
-
-````markdown
 # CMDi-5 Challenge Writeup - pwn.college
 
 ## 🧠 Challenge Overview
@@ -109,6 +104,3 @@ Now, if any previous or future level allows us to `cat /challenge/output` or `ls
 * **Command injection doesn’t always give visible output.**
 * Always verify whether you're dealing with a **blind command injection**.
 * Redirecting the output to a file is a useful trick for exfiltration in blind scenarios.
-
----
-

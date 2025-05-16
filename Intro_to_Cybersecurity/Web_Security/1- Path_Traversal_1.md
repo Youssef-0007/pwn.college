@@ -1,4 +1,3 @@
-Sure! Here’s your content formatted in Markdown so you can copy it directly:
 # 🔍 Key Line of Vulnerability
 
 ```python

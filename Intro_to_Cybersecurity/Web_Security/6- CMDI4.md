@@ -1,6 +1,3 @@
-Here’s a writeup in `.md` format for this Command Injection level using the `TZ` environment variable:
-
-````markdown
 # Command Injection Level: Environment Variable Injection
 
 ## Challenge Overview

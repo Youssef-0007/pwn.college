@@ -1,4 +1,3 @@
-```markdown
 # Authentication Bypass via Unsigned Cookies
 
 ## Challenge Description
@@ -68,4 +67,3 @@ curl -b "session_user=admin" "http://challenge.localhost/"
 
 ## Lesson Learned
 Never trust client-controlled values for authentication decisions without proper cryptographic validation and server-side checks.
-```

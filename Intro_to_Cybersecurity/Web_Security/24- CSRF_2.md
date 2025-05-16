@@ -71,9 +71,3 @@ Trigger a POST request to the vulnerable endpoint (e.g., `/post` or `/publish`) 
 * **Forms are dangerous** when not protected by CSRF tokens.
 * CSRF can be triggered by auto-submitted forms — no user interaction needed.
 * SOP does **not** block sending data — it blocks **reading** the response.
-
----
-
-## 🏁 Flag
-
-Once the form submission is successful, the server should expose the flag or perform the intended action. If the flag is shown in the response or on the victim’s dashboard, you can retrieve it accordingly.

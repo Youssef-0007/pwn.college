@@ -85,5 +85,3 @@ app.config.update(
     SESSION_COOKIE_SAMESITE='Lax'
 )
 ```
-
-This shows how foundational security practices could have prevented all three exploit chains.
