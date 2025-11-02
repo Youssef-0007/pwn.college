@@ -1,0 +1,183 @@
+Breakpoint 1 at 0x6013fac69f09
+0x0:	/tmp/pwnlib-gdbscript-zn2my75d.gdb:6: Error in sourced command file:
+Cannot access memory at address 0x0
+Continuing.
+Reading /lib/x86_64-linux-gnu/libc.so.6 from remote target...
+
+Breakpoint 1, 0x00006013fac69f09 in challenge ()
+0x6013fac6d040 <bssdata>:	0x00	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+Breakpoint 1 at 0x56fd2be60f09
+0x0:	/tmp/pwnlib-gdbscript-thenf4el.gdb:6: Error in sourced command file:
+Cannot access memory at address 0x0
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+Breakpoint 1 at 0x5e5a07f87f09
+0x0:	/tmp/pwnlib-gdbscript-5ywigvqy.gdb:6: Error in sourced command file:
+Cannot access memory at address 0x0
+Breakpoint 1 at 0x62799f703f09
+0x0:	/tmp/pwnlib-gdbscript-xfk2yj9s.gdb:6: Error in sourced command file:
+Cannot access memory at address 0x0
+Continuing.
+Reading /lib/x86_64-linux-gnu/libc.so.6 from remote target...
+
+Breakpoint 1, 0x000062799f703f09 in challenge ()
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+Breakpoint 1 at 0x5c61fe96ff09
+0x0:	/tmp/pwnlib-gdbscript-gen5ou1s.gdb:6: Error in sourced command file:
+Cannot access memory at address 0x0
+Continuing.
+Reading /lib/x86_64-linux-gnu/libc.so.6 from remote target...
+
+Breakpoint 1, 0x00005c61fe96ff09 in challenge ()
+Breakpoint 2 at 0x5c61fe96ff6e
+Continuing.
+
+Breakpoint 2, 0x00005c61fe96ff6e in challenge ()
+Dump of assembler code for function challenge:
+   0x00005c61fe96fe23 <+0>:	endbr64
+   0x00005c61fe96fe27 <+4>:	push   rbp
+   0x00005c61fe96fe28 <+5>:	mov    rbp,rsp
+   0x00005c61fe96fe2b <+8>:	sub    rsp,0xa0
+   0x00005c61fe96fe32 <+15>:	mov    DWORD PTR [rbp-0x84],edi
+   0x00005c61fe96fe38 <+21>:	mov    QWORD PTR [rbp-0x90],rsi
+   0x00005c61fe96fe3f <+28>:	mov    QWORD PTR [rbp-0x98],rdx
+   0x00005c61fe96fe46 <+35>:	mov    rax,QWORD PTR fs:0x28
+   0x00005c61fe96fe4f <+44>:	mov    QWORD PTR [rbp-0x8],rax
+   0x00005c61fe96fe53 <+48>:	xor    eax,eax
+   0x00005c61fe96fe55 <+50>:	lea    rdx,[rbp-0x60]
+   0x00005c61fe96fe59 <+54>:	mov    eax,0x0
+   0x00005c61fe96fe5e <+59>:	mov    ecx,0xb
+   0x00005c61fe96fe63 <+64>:	mov    rdi,rdx
+   0x00005c61fe96fe66 <+67>:	rep stos QWORD PTR es:[rdi],rax
+   0x00005c61fe96fe69 <+70>:	lea    rax,[rip+0x31d0]        # 0x5c61fe973040 <bssdata>
+   0x00005c61fe96fe70 <+77>:	mov    QWORD PTR [rbp-0x68],rax
+   0x00005c61fe96fe74 <+81>:	lea    rax,[rip+0x332b]        # 0x5c61fe9731a6 <bssdata+358>
+   0x00005c61fe96fe7b <+88>:	mov    QWORD PTR [rbp-0x10],rax
+   0x00005c61fe96fe7f <+92>:	movabs rax,0x2073692073696854
+   0x00005c61fe96fe89 <+102>:	movabs rdx,0x676e697274732061
+   0x00005c61fe96fe93 <+112>:	mov    QWORD PTR [rip+0x330c],rax        # 0x5c61fe9731a6 <bssdata+358>
+   0x00005c61fe96fe9a <+119>:	mov    QWORD PTR [rip+0x330d],rdx        # 0x5c61fe9731ae <bssdata+366>
+   0x00005c61fe96fea1 <+126>:	movabs rax,0x20656874206e6920
+   0x00005c61fe96feab <+136>:	mov    QWORD PTR [rip+0x3304],rax        # 0x5c61fe9731b6 <bssdata+374>
+   0x00005c61fe96feb2 <+143>:	mov    DWORD PTR [rip+0x3302],0x21737362        # 0x5c61fe9731be <bssdata+382>
+   0x00005c61fe96febc <+153>:	mov    BYTE PTR [rip+0x32ff],0x0        # 0x5c61fe9731c2 <bssdata+386>
+   0x00005c61fe96fec3 <+160>:	lea    rdi,[rip+0x113e]        # 0x5c61fe971008
+   0x00005c61fe96feca <+167>:	call   0x5c61fe96f0f0 <puts@plt>
+   0x00005c61fe96fecf <+172>:	lea    rdi,[rip+0x117a]        # 0x5c61fe971050
+   0x00005c61fe96fed6 <+179>:	call   0x5c61fe96f0f0 <puts@plt>
+   0x00005c61fe96fedb <+184>:	lea    rdi,[rip+0x11c1]        # 0x5c61fe9710a3
+   0x00005c61fe96fee2 <+191>:	call   0x5c61fe96f0f0 <puts@plt>
+   0x00005c61fe96fee7 <+196>:	mov    esi,0x0
+   0x00005c61fe96feec <+201>:	lea    rdi,[rip+0x11cc]        # 0x5c61fe9710bf
+   0x00005c61fe96fef3 <+208>:	mov    eax,0x0
+   0x00005c61fe96fef8 <+213>:	call   0x5c61fe96f140 <open@plt>
+   0x00005c61fe96fefd <+218>:	mov    edx,0x100
+   0x00005c61fe96ff02 <+223>:	lea    rsi,[rip+0x3137]        # 0x5c61fe973040 <bssdata>
+   0x00005c61fe96ff09 <+230>:	mov    edi,eax
+   0x00005c61fe96ff0b <+232>:	call   0x5c61fe96f120 <read@plt>
+   0x00005c61fe96ff10 <+237>:	mov    QWORD PTR [rbp-0x70],0x0
+   0x00005c61fe96ff18 <+245>:	lea    rdi,[rip+0x11a6]        # 0x5c61fe9710c5
+   0x00005c61fe96ff1f <+252>:	mov    eax,0x0
+   0x00005c61fe96ff24 <+257>:	call   0x5c61fe96f110 <printf@plt>
+   0x00005c61fe96ff29 <+262>:	lea    rax,[rbp-0x70]
+   0x00005c61fe96ff2d <+266>:	mov    rsi,rax
+   0x00005c61fe96ff30 <+269>:	lea    rdi,[rip+0x119d]        # 0x5c61fe9710d4
+   0x00005c61fe96ff37 <+276>:	mov    eax,0x0
+   0x00005c61fe96ff3c <+281>:	call   0x5c61fe96f150 <__isoc99_scanf@plt>
+   0x00005c61fe96ff41 <+286>:	mov    rax,QWORD PTR [rbp-0x70]
+   0x00005c61fe96ff45 <+290>:	mov    rsi,rax
+   0x00005c61fe96ff48 <+293>:	lea    rdi,[rip+0x1189]        # 0x5c61fe9710d8
+   0x00005c61fe96ff4f <+300>:	mov    eax,0x0
+   0x00005c61fe96ff54 <+305>:	call   0x5c61fe96f110 <printf@plt>
+   0x00005c61fe96ff59 <+310>:	mov    rdx,QWORD PTR [rbp-0x70]
+   0x00005c61fe96ff5d <+314>:	lea    rax,[rbp-0x60]
+   0x00005c61fe96ff61 <+318>:	mov    rsi,rax
+   0x00005c61fe96ff64 <+321>:	mov    edi,0x0
+   0x00005c61fe96ff69 <+326>:	call   0x5c61fe96f120 <read@plt>
+=> 0x00005c61fe96ff6e <+331>:	mov    DWORD PTR [rbp-0x74],eax
+   0x00005c61fe96ff71 <+334>:	cmp    DWORD PTR [rbp-0x74],0x0
+   0x00005c61fe96ff75 <+338>:	jns    0x5c61fe96ffa3 <challenge+384>
+   0x00005c61fe96ff77 <+340>:	call   0x5c61fe96f0e0 <__errno_location@plt>
+Quit
+0x7ffcd3fb95f0:	0x000000000000001c
+0x7ffcd3fb95f0:	0x000000000000001c	0x00007ffcd3fba7d8
+0x7ffcd3fb9600:	0x00007ffcd3fba7c8	0x0000000100000000
+0x7ffcd3fb9610:	0x0000000000000000	0x000073b4d3bb86a0
+0x7ffcd3fb9620:	0x000000000000005c	0x00005c61fe973040
+0x7ffcd3fb9630:	0x4141414141414141	0x4141414141414141
+0x7ffcd3fb9640:	0x4141414141414141	0x4141414141414141
+0x7ffcd3fb9650:	0x4141414141414141	0x4141414141414141
+0x7ffcd3fb9660:	0x4141414141414141	0x4141414141414141
+0x7ffcd3fb9670:	0x4141414141414141	0x4141414141414141
+0x7ffcd3fb9680:	0x4141414141414141	0xb5a48fce0000c040
+0x7ffcd3fb9690:	0x00007ffcd3fba6d0	0x00005c61fe970077
+0x7ffcd3fb96a0:	0x0000000000001000	0x00007ffcd3fba7d8
+0x7ffcd3fb96b0:	0x00007ffcd3fba7c8	0x00000001001e8788
+0x7ffcd3fb96c0:	0x00000000001e8788	0x0000000000005018
+0x7ffcd3fb96d0:	0x0000000000008ed8	0x0000000000001000
+0x7ffcd3fb96e0:	0x0000000600000002	0x00000000001eab80
+0x7ffcd3fb96f0:	0x00000000001ebb80	0x00000000001ebb80
+0x7ffcd3fb9700:	0x00000000000001e0	0x00000000000001e0
+0x7ffcd3fb9710:	0x0000000000000008	0x0000000400000004
+0x7ffcd3fb9720:	0x0000000000000350	0x0000000000000350
+0x7ffcd3fb9730:	0x0000000000000350	0x0000000000000020
+0x7ffcd3fb9740:	0x0000000000000020	0x0000000000000008
+0x7ffcd3fb9750:	0x0000000400000004	0x0000000000000370
+0x7ffcd3fb9760:	0x0000000000000370	0x0000000000000370
+0x7ffcd3fb9770:	0x0000000000000044	0x0000000000000044
+0x7ffcd3fb9780:	0x0000000000000004	0x0000000400000007
+0x7ffcd3fb9790:	0x00000000001e7788	0x00000000001e8788
+0x7ffcd3fb97a0:	0x00000000001e8788	0x0000000000000010
+0x7ffcd3fb97b0:	0x0000000000000090	0x0000000000000008
+0x7ffcd3fb97c0:	0x000000046474e553	0x0000000000000350
+0x7ffcd3fb97d0:	0x0000000000000350	0x0000000000000350
+0x7ffcd3fb97e0:	0x0000000000000020	0x0000000000000020
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_sse2 () at ../sysdeps/x86_64/multiarch/../strlen.S:120
+warning: 120	../sysdeps/x86_64/multiarch/../strlen.S: No such file or directory
+Remote connection closed
+Breakpoint 1 at 0x638c2899df09
+0x0:	/tmp/pwnlib-gdbscript-gti7nhlb.gdb:6: Error in sourced command file:
+Cannot access memory at address 0x0
+Continuing.
+Reading /lib/x86_64-linux-gnu/libc.so.6 from remote target...
+
+Breakpoint 1, 0x0000638c2899df09 in challenge ()
+0x7ffddc176420:	0x000000000000001c	0x00007ffddc177608
+0x7ffddc176430:	0x00007ffddc1775f8	0x0000000100000000
+0x7ffddc176440:	0x0000000000000000	0x000074a8ac10a6a0
+0x7ffddc176450:	0x0000000000000000	0x0000638c289a1040
+0x7ffddc176460:	0x0000000000000000	0x0000000000000000
+0x7ffddc176470:	0x0000000000000000	0x0000000000000000
+0x7ffddc176480:	0x0000000000000000	0x0000000000000000
+0x7ffddc176490:	0x0000000000000000	0x0000000000000000
+0x7ffddc1764a0:	0x0000000000000000	0x0000000000000000
+0x7ffddc1764b0:	0x0000638c289a11a6	0x5d57cc4dd36aca00
+0x7ffddc1764c0:	0x00007ffddc177500	0x0000638c2899e077
+0x7ffddc1764d0:	0x0000000000001000	0x00007ffddc177608
+0x7ffddc1764e0:	0x00007ffddc1775f8	0x00000001001e8788
+0x7ffddc1764f0:	0x00000000001e8788	0x0000000000005018
+0x7ffddc176500:	0x0000000000008ed8	0x0000000000001000
+0x7ffddc176510:	0x0000000600000002	0x00000000001eab80
+0x7ffddc176520:	0x00000000001ebb80	0x00000000001ebb80
+0x7ffddc176530:	0x00000000000001e0	0x00000000000001e0
+0x7ffddc176540:	0x0000000000000008	0x0000000400000004
+0x7ffddc176550:	0x0000000000000350	0x0000000000000350
+0x7ffddc176560:	0x0000000000000350	0x0000000000000020
+0x7ffddc176570:	0x0000000000000020	0x0000000000000008
+0x7ffddc176580:	0x0000000400000004	0x0000000000000370
+0x7ffddc176590:	0x0000000000000370	0x0000000000000370
+0x7ffddc1765a0:	0x0000000000000044	0x0000000000000044
+0x7ffddc1765b0:	0x0000000000000004	0x0000000400000007
+0x7ffddc1765c0:	0x00000000001e7788	0x00000000001e8788
+0x7ffddc1765d0:	0x00000000001e8788	0x0000000000000010
+0x7ffddc1765e0:	0x0000000000000090	0x0000000000000008
+0x7ffddc1765f0:	0x000000046474e553	0x0000000000000350
+0x7ffddc176600:	0x0000000000000350	0x0000000000000350
+0x7ffddc176610:	0x0000000000000020	0x0000000000000020
+Remote connection closed

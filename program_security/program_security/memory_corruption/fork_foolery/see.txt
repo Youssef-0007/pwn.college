@@ -1,0 +1,10 @@
+[x] Opening connection to localhost on port 1337
+[x] Opening connection to localhost on port 1337: Trying ::1
+[x] Opening connection to localhost on port 1337: Trying 127.0.0.1
+[+] Opening connection to localhost on port 1337: Done
+[*] Switching to interactive mode
+ (up to 72 bytes)!
+You sent 72 bytes!
+[*] Got EOF while reading in interactive
+[*] Interrupted
+[*] Closed connection to localhost port 1337
